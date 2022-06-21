@@ -70,7 +70,11 @@ The data shows a survey of different races and whether or not they are in favor 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 
-
+```{r}
+table2 <- xtabs(~race + cappun, data=mydata)
+rowPerc(table2)
+colPerc(table2)
+```
 
 ## Now with More data
 
