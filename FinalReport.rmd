@@ -94,8 +94,10 @@ fisher.test(table2)
 #fisherXY(mydata$race,mydata$cappun)
 ```
 
+The vhi-squared test does not shot us any difference between, white, black, or others because the p value is not large enough. We will use the fisherXY test to  compare their differences.
+
 ```{r}
-fisherXY(mydata$cappun,mydata$race)
+fisherXY(mydata$cappun,mydata$race,printAll = TRUE)
 ```
  
 
