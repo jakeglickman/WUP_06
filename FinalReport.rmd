@@ -77,14 +77,6 @@ colPerc(table1)
 
 This table shows the percentage of people for each race surveyed that were in favor of or opposed capital punishment. About 68% of white people were in favor with 32% against. 49.55% of black people surveyed were in favor of capital punishment with 50.45% against it. About 69% of people of other races were in favor while 31% were not.
 
-## Now with less data
-
-```{r}
-table2 <- xtabs(~race + cappun, data=mydata)
-rowPerc(table2)
-colPerc(table2)
-```
-
 
 ## Inferential Results
 
@@ -96,9 +88,9 @@ colPerc(table2)
 ## Less data version
 
 ```{r}
-chisq.test(table2)
-chisqtestGC(table2)
-fisher.test(table2)
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
 #fisherXY(mydata$race,mydata$cappun)
 ```
 ```{r}
