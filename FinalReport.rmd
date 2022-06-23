@@ -62,7 +62,7 @@ basicCC <- ggplot(dd2,aes(x=race,y=prcnt*100,fill=cappun))
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
 
-
+The bar chart shows white people in favor of the capital punishment by nearly 70%. The black people surveyed who slightly opposed with a little over 50% against and slightly below 50% in favor. The other races surveyed were in favor of capital punishment with about 70% in favor. About 600 white people were surveyed, about 100 black people, and 75 people of other races.
 
 ### Numerical Descriptive Results
 
