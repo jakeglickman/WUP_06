@@ -75,6 +75,8 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
+This table shows the percentage of people for each race surveyed that were in favor of or opposed capital punishment. About 68% of white people were in favor with 32% against. 49.55% of black people surveyed were in favor of capital punishment with 50.45% against it. About 69% of people of other races were in favor while 31% were not.
+
 ## Now with less data
 
 ```{r}
