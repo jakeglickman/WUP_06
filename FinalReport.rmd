@@ -161,9 +161,10 @@ fisherXY = function(x, y, confL = 0, printAll=FALSE){
 ```
 
 ```{r}
-fisherXY(mydata$cappun,mydata$race)
+fisherXY(mydata$cappun,mydata$race, printAll = TRUE)
 ```
  
+The difference we see is between the white people and the black people surveyed. The white people and other races had no difference in whether they were in favor of or opposed to capital punishment. The other races and black people had a difference in their survey as well.
 
 # Discussion and Conclusion
 
